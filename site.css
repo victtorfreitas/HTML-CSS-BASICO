@@ -1,0 +1,147 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	/* Fonte da letra */
+	background-color: #F2FFFC;
+	/* Cor de fundo do elemento */
+	font-size: 120%;
+	/* Tamanho da fonte */
+	line-height: 1.5;
+	/* Espaçamento entre linhas */
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	/* Fonte da letra */
+}
+
+main h1 {
+	text-align: center;
+	/* Texto alinhado ao centro */
+	background-color: #851944;
+	/* Cor do fundo */
+	color: #FFF;
+	/* Cor da letra */
+	padding: 25px;
+	/* Espaçamento interno do elemento */
+	margin: 0;
+	/* Espaçamento entre a margem do navegador e o elemento*/
+	border-bottom: 10px solid black;
+	/* Borda na parte inferior */
+	font-size: 60px;
+	/* Tamanho da fonte */
+}
+
+main h2 {
+	font-size: 30px;
+	/* Tamanho da fonte */
+}
+
+main div {
+	width: 720px;
+	/* Largura */
+	margin: auto;
+	/* Centraliza o elemento */
+	padding-top: 30px;
+	/* Margem interna da parte superior*/
+	padding-bottom: 30px;
+	/* Margem interna da parte inferior */
+}
+
+p {
+	text-align: justify;
+	/* Alinha o texto */
+	margin-top: 20px;
+	/* Margem superior */
+	margin-bottom: 20px;
+	/* Margem inferior */
+}
+
+blockquote {
+	background-color: #D9E5E3;
+	/* Muda a cor de fundo */
+	border: 10px solid/*#C2CCCA*/
+	transparent;
+	/* Borda do elemento */
+	width: 250px;
+	/* Largura  */
+	box-sizing: border-box;
+	/* Faz com que a contatem da largura seja de borda a borda e não mais o conteúdo */
+	margin: 20px 40px 20px 40px;
+	/* Margens TOP RIGTH BOTTOM LEFT */
+}
+
+blockquote, aside, footer {
+	padding: 10px;
+	/*Espaço interno do elemento*/
+}
+
+/* -----------------Elementos NAVEGAÇÃO---------------- */
+
+aside {
+	background-color: #3C1D3D;
+	/* Cor de fundo */
+	color: #F2FFFC;
+	/* Cor da letra */
+	text-align: center;
+}
+
+aside a {
+	color: inherit;
+	/* Cor mais próxima matém */
+	font-family: "Open Sans Condensed", sans-serif;
+	/* Fonte utilizada */
+}
+
+aside h1 {
+	font-size: 30px;
+	/* Tamanho da fonte */
+	margin-bottom: 25px;
+	/* Margem da parte inferior */
+}
+
+
+nav a {
+	color: #F2FFFC;
+	/* Cor da letra */
+}
+
+main a {
+	color: #851944;
+	/* Cor da letra */
+}
+
+em {
+	font-style: italic;
+	/* Estilo do texto em italico */
+}
+strong{
+	font-weight: bolder;
+	/* Colocando borda no texto (Efeito Negrito) */
+}
+hr{
+	background-color: #ccc;
+}
+
+/* ------------------Classes------------------ */
+.icones-sociais li{
+	display: inline-block;
+	/* Muda a forma como os elementos se alinham, no caso agora é em linha com block(Posso mudar a altura dos elementos) */
+}
+
+.article-default {
+	margin-top: 30px;
+}
+.footer-site{
+	background-color: #000;
+	/* Cor de fundo */
+	color: #F2FFFC;
+	/* Cor da letra */
+}
+.leia-mais{
+	font-size: 24px;
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	text-align: center;
+	background-color: #E6E7E8;
+}
