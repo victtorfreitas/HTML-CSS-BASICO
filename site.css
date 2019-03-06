@@ -29,6 +29,8 @@ main h1 {
 	/* Borda na parte inferior */
 	font-size: 60px;
 	/* Tamanho da fonte */
+	text-transform: uppercase;
+	/* Deixa o texto em letra maiuscula */
 }
 
 main h2 {
@@ -99,7 +101,6 @@ aside h1 {
 	/* Margem da parte inferior */
 }
 
-
 nav a {
 	color: #F2FFFC;
 	/* Cor da letra */
@@ -114,34 +115,71 @@ em {
 	font-style: italic;
 	/* Estilo do texto em italico */
 }
-strong{
+
+strong {
 	font-weight: bolder;
 	/* Colocando borda no texto (Efeito Negrito) */
 }
-hr{
+
+hr {
 	background-color: #ccc;
+	/* Cor de fundo do elemento */
 }
 
 /* ------------------Classes------------------ */
-.icones-sociais li{
+
+.icones-sociais li {
 	display: inline-block;
 	/* Muda a forma como os elementos se alinham, no caso agora é em linha com block(Posso mudar a altura dos elementos) */
 }
 
+.icones-sociais a {
+	width: 40px;
+	/* Largura */
+	height: 40px;
+	/* Altura */
+	display: block;
+	/* Para que mostre a imagem */
+	text-indent: -99999px;
+	/* Para sumir com o texto e ficar apenas a imagem de fundo */
+}
+
+.github-icon {
+	background-image: url(github.png);
+	/* Define o background do elemento */
+}
+.twitter-icon{
+	background-image: url(twitter.png);
+	/* Define o background do elemento */
+}
+.linkedin-icon{
+	background-image: url(linkedin.png);
+	/* Define o background do elemento */
+}
+
 .article-default {
 	margin-top: 30px;
+	/* Define a margem externa superior */
 }
-.footer-site{
+
+.footer-site {
 	background-color: #000;
 	/* Cor de fundo */
 	color: #F2FFFC;
 	/* Cor da letra */
 }
-.leia-mais{
+
+.leia-mais {
 	font-size: 24px;
+	/* Tamanho do texto */
 	padding: 8px;
+	/* Margem interna geral */
 	margin: 16px;
+	/* Margem externa geral */
 	display: block;
+	/* Display é a forma como os elementos se organizam na tela */
 	text-align: center;
+	/* Alinhamento do texto */
 	background-color: #E6E7E8;
+	/* Cor de fundo do elemento */
 }
