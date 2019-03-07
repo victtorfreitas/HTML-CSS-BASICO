@@ -1,0 +1,84 @@
+
+.citacao-bio {
+	background-color: #D9E5E3;
+	/* Muda a cor de fundo */
+	border: 10px solid/*#C2CCCA*/
+	transparent;
+	/* Borda do elemento */
+	width: 250px;
+	/* Largura  */
+	box-sizing: border-box;
+	/* Faz com que a contatem da largura seja de borda a borda e não mais o conteúdo */
+	margin: 20px 40px 20px 40px;
+	/* Margens TOP RIGTH BOTTOM LEFT */
+}
+
+blockquote, aside, footer {
+	padding: 10px;
+	/*Espaço interno do elemento*/
+}
+
+cite {
+	font-style: italic;
+	float: right;
+}
+
+/* -----------------Elementos NAVEGAÇÃO---------------- */
+
+
+
+main a {
+	color: #851944;
+	/* Cor da letra */
+}
+
+em {
+	font-style: italic;
+	/* Estilo do texto em italico */
+}
+
+strong {
+	font-weight: bolder;
+	/* Colocando borda no texto (Efeito Negrito) */
+}
+
+hr {
+	background-color: #ccc;
+	/* Cor de fundo do elemento */
+}
+
+
+
+/* ------------------Classes------------------ */
+
+
+
+.article-default {
+	margin-top: 30px;
+	/* Define a margem externa superior */
+}
+
+
+
+.leia-mais {
+	font-size: 24px;
+	/* Tamanho do texto */
+	padding: 8px;
+	/* Margem interna geral */
+	margin: 16px;
+	/* Margem externa geral */
+	display: block;
+	/* Display é a forma como os elementos se organizam na tela */
+	text-align: center;
+	/* Alinhamento do texto */
+	background-color: #E6E7E8;
+	/* Cor de fundo do elemento */
+}
+
+.direita {
+	float: right;
+}
+
+.esquerda {
+	float: left;
+}
